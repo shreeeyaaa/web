@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shreya</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+  <!-- <div class="top-bar">
+    <div class="profile">
+      <img src="profile-pic.png" alt="Profile Picture" class="profile-img">
+      <h2>Shreya</h2>
+    </div>
+    <div class="hamburger-menu" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
+    <div class="top-bar-menu">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+    </div>
+  </div> -->
+  
+  
+  
+
+    <div class="container">
+      <!-- Sidebar (only visible on large screens) -->
+      <div class="sidebar">
+        <div class="profile">
+          <img src="assets/newprofile.png" alt="Profile Picture" class="profile-img">
+          <h2>Shreya Shrestha</h2>
+          <p class="tag">CE Undergrad</p>
+        </div>
+        <div class="divider"></div>
+        <div class="contact-section">
+          <p class="email">
+            <i class="fas fa-envelope"></i> shreyashrestha014@gmail.com
+          </p>
+          <p class="location">
+            <i class="fas fa-map-marker-alt"></i> Pulchowk, Lalitpur
+          </p>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/shreya-shresthaa"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/shreeeyaaa"><i class="fab fa-github"></i></a>
+            <a href="https://www.facebook.com/shreeyaashresthaa/"><i class="fab fa-facebook"></i></a>
+          </div>
+        </div>
+      </div>
+      
+  
+      <!-- Top Bar (only visible on small screens) -->
+      <!-- <div class="top-bar">
+        <div class="profile">
+          <img src="profile-pic.png" alt="Profile Picture" class="profile-img">
+          <h2>Shreya</h2>
+        </div>
+        <div class="hamburger-menu" onclick="toggleMenu()">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div class="top-bar-menu">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+        </div>
+      </div> -->
+  
+      <!-- Main Content -->
+      <div class="main-content">
+        <div class="navbar">
+          <input type="checkbox" id="menu-toggle">
+          <label for="menu-toggle" class="menu-icon">
+              <i class="fas fa-bars"></i>
+          </label>
+          <div class="nav-links">
+              <a href="#about" class="nav-link" onclick="showSection('about'); closeMenu()">About</a>
+              <a href="#projects" class="nav-link" onclick="showSection('projects'); closeMenu()">Projects</a>
+              <a href="#experience" class="nav-link" onclick="showSection('experience'); closeMenu()">Experience</a>
+              <a href="#contact" class="nav-link" onclick="showSection('contact'); closeMenu()">Contact</a>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/shreeeyaaa/" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/shreya-shresthaa/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            
+        </div>
+        </div>
+      
+        
+      
+      
+      
+        
+      </div> <!-- it was two steps to the left -->
+    
+    <div id="about" class="about-section">
+        <h1>Hello! I’m Shreya Shrestha.</h1>
+        <p><strong>AI Enthusiast | Tech Explorer | Adventurer</strong></p>
+        <!-- <p><em>Pulchowk, Lalitpur</em></p> -->
+        
+        <p>
+          I'm  a computer engineering undergraduate at Pulchowk Campus with a keen interest in becoming an AI/ML engineer. I completed my high school education at SOS Hermann Gmeiner School Bharatpur.  
+        </p>
+        
+        <p>
+          Apart from technology, I enjoy exploring new places, painting, and expanding my creativity in various fields. I believe that these experiences enrich my perspective and help me approach problem-solving in unique ways.
+        </p>
+        
+        <p>
+          Welcome to my portfolio, where I share my journey and projects in the fascinating world of technology and creativity. Feel free to explore and connect with me!
+        </p>
+    </div>
+
+    
+    
+    
+    <div id="projects" class="projects-container">
+      <!-- <h1>Projects</h1> -->
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="assets/ecoguard.png" alt="Ecoguard Project">
+          <div class="project-header">
+            <h2>EcoGuard
+        
+              
+              <a href="https://github.com/Sadhana-Panthi/ecoguard" target="_blank" class="project-link">
+                <i class="fab fa-github"></i>
+              </a>
+              <!-- <a href="https://www.youtube.com/watch?v=yourvideolink" target="_blank" class="project-link">
+                <i class="fab fa-youtube"></i>
+              </a> -->
+            </h2>
+          </div>
+          <p>EcoGuard is an AI-powered solution designed to detect illegal deforestation and poaching in real-time. It employs a VGG-16 model trained on the ESC-50 dataset for audio recognition of machinery, enhancing detection accuracy. The system integrates OpenCV for image processing and Librosa for audio analysis, enabling efficient monitoring and alerting authorities about potential illegal activities.</p>
+        </div>
+        <div class="project-card">
+          <img src="assets/roomie.png" alt="Roomie Project">
+          <div class="project-header">
+            <h2>Roomie
+              <a href="https://github.com/shreeeyaaa/roomiepro" target="_blank" class="project-link">
+                <i class="fab fa-github"></i> <!-- GitHub icon -->
+              </a>
+              <!-- <a href="https://youtube.com/watch?v=yourvideolink" target="_blank" class="project-link">
+                <i class="fab fa-youtube"></i> 
+              </a> -->
+            </h2>
+          </div>
+          <p>Roomie is a hostel and roommate-finding app designed to simplify the search process for university students. It features a Django-based backend, with a frontend built using HTML and CSS, ensuring a seamless user experience. The app uses SQLite for data storage, enabling efficient query handling and making it easier for students to find suitable accommodation and roommates.</p>
+        </div>
+        <div class="project-card">
+          <img src="assets/day.png" alt="Bouddhanath Stupa">
+          <h2>Bouddhanath Stupa <a href="https://github.com/Sadhana-Panthi/Bauddhanath_Stupa" target="_blank" class="project-link">
+            <i class="fab fa-github"></i> <!-- GitHub icon -->
+          </a></h2>
+          
+          <p>Capturing the essence of Boudhanath Stupa in a stunning 3D model, this project utilizes C++ and OpenGL to create a meticulously crafted 3D model. With realistic rendering and smooth interactions, it offers an immersive visual experience, blending art and technology to showcase one of the world’s most revered landmarks.</p>
+        </div>
+        <div class="project-card">
+          <img src="assets/elective.png" alt="">
+          <h2>CourseSelect <a href="https://github.com/shreeeyaaa/elective-registration-system" target="_blank" class="project-link">
+            <i class="fab fa-github"></i> <!-- GitHub icon -->
+          </a></h2>
+          
+          <p>CourseSelect is an elective course registration system designed for BCT students at IOE Campus as part of a DBMS project. Built with MySQL, the system enables efficient course selection, enrollment, and management. It simplifies the registration process, ensuring smooth and organized handling of elective courses for students.</p>
+        </div>
+        <div class="project-card">
+          <img src="assets/pacman.png" alt="">
+          <h2>Pacman <a href="https://github.com/shreeeyaaa/finalpacman" target="_blank" class="project-link">
+            <i class="fab fa-github"></i> <!-- GitHub icon -->
+          </a></h2>
+          
+          <p>The Pac-Man game, built with C++ and OOP concepts, adds exciting features like weather modes (snow and fog) and a slippery floor effect when snow falls. The invisible mode, where ghosts disappear temporarily, adds unpredictability, offering a dynamic and enhanced gameplay experience.</p>
+        </div>
+        
+        <!-- Add more project cards as needed -->
+      </div>
+    </div>
+
+    <!-- Experience Section -->
+    <div id="experience">
+        <!-- <p class="section__text__p1">Explore My</p> -->
+        <!-- <h1 class="title">Experience</h1> -->
+        
+        <ul id="accordion">
+          <li>
+            <!-- <label for="first">Fusemachines AI Fellowship<span>&#x3e;</span> </label> -->
+            <label for="first">
+              <img src="assets/fusee.jpeg" alt="Fusemachines Logo" class="accordion-image">
+              Fusemachines AI Fellowship<i class="fa-solid fa-caret-down"></i>
+  
+          </label>
+            <input type="checkbox" name="accordion" id="first" class="accordion-toggle">
+            <div class="content">
+              <p>April 2024-Nov 2024</p>
+              <p class="bullet-points">
+                Completed an intensive 6-month fellowship focused on AI, including deep learning, computer vision, and natural
+                language processing (NLP).
+              <p class="bullet-points">
+                Gained hands-on experience with various AI models and frameworks.
+              </p>
+              <p class="bullet-points">
+                Collaborated with a team to design AI solutions.
+              </p>
+            </div>
+  
+          </li>
+          <li>
+            <label for="third">
+              <img src="assets/naamii.png" alt="GSOC Logo" class="accordion-image">
+              NAAMII <i class="fa-solid fa-caret-down"></i>
+  
+            </label>
+            <input type="checkbox" name="accordion" id="third" class="accordion-toggle">
+            <div class="content">
+              <p>Jan 2025</p>
+              <p class="bullet-points">
+                Participated in Naamii 10 Days AI School, gaining insights into complex AI concepts and technologies.
+              </p>
+              <p class="bullet-points">
+                Engaged in a hands-on learning experience, working with AI models and techniques.
+              </p>
+              <p class="bullet-points">
+                Contributed to a team project in the hackathon under the "Startup" category.
+              </p>
+            </div>
+            
+  
+          </li>
+          <li>
+            <label for="second">
+              <img src="assets/codefornepal.jpg" alt="Fusemachines Logo" class="accordion-image">
+              Code For Nepal Data Fellowship<i class="fa-solid fa-caret-down"></i>
+  
+            </label>
+            <input type="checkbox" name="accordion" id="second" class="accordion-toggle">
+            <div class="content">
+              
+              <p>Jan 2023-June 2023</p>
+              <p class="bullet-points">
+                Completed an intensive training program covering data analysis, visualization, and machine learning techniques.
+              </p>
+              <p class="bullet-points">
+                Developed projects focusing on real-world data challenges and solutions.
+              </p>
+              
+              
+            </div>
+  
+          </li>
+          
+          
+          <!-- <li>
+            <label for="third">
+              <img src="assets/gsoc.jpg" alt="GSOC Logo" class="accordion-image">
+              GirlScript Summer Of Code<i class="fa-solid fa-caret-down"></i>
+  
+            </label>
+            <input type="checkbox" name="accordion" id="third" class="accordion-toggle">
+            <div class="content">
+              <p>fjshfhsfhshdhfsdjfhsjdhfhdsjhfffffffffffffffffffffffffff</p>
+            </div>
+  
+          </li> -->
+        </ul>
+        <script>
+          // Accordion functionality
+          var acc = document.getElementsByClassName("accordion");
+          for (var i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var panel = this.nextElementSibling;
+              if (panel.style.display === "block") {
+                panel.style.display = "none";
+              } else {
+                panel.style.display = "block";
+              }
+            });
+          }
+          
+          // Checkbox functionality
+          var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+          checkboxes.forEach(function(checkbox) {
+            checkbox.addEventListener('change', function() {
+              if (this.checked) {
+                checkboxes.forEach(function(box) {
+                  if (box !== checkbox) {
+                    box.checked = false;
+                  }
+                });
+              }
+            });
+          });
+          </script>
+          
+        
+    </div>
+
+    
+    <div id="contact" class="contact-details" style="display:none;" >
+      <div class="row">
+        <!-- <h1>Get in touch</h1> -->
+    </div>
+    
+    <div class="row input-container">
+        <div class="col-xs-12">
+          <h1>Get in touch</h1>
+        </div>
+        <div class="col-xs-12">
+          <div class="styled-input wide">
+            <input type="text" required />
+            <label>Name</label> 
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="styled-input">
+            <input type="text" required />
+            <label>Email</label> 
+          </div>
+        </div>
+        <!-- <div class="col-md-6 col-sm-12">
+          <div class="styled-input" style="float:right;">
+            <input type="text" required />
+            <label>Phone Number</label> 
+          </div>
+        </div> -->
+        <div class="col-xs-12">
+          <div class="styled-input wide">
+            <textarea required></textarea>
+            <label>Message</label>
+          </div>
+        </div>
+        <div class="col-xs-12">
+          <div class="btn-lrg submit-btn">Send Message</div>
+        </div>
+    </div>
+    </div>
+    
+
+    </div>
+  
+    <script src="script.js"></script>
+  </body>
+  
+</html>
